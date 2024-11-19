@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* For webkit browsers (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #8B4513; /* Brown color */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  /* For Firefox */
+  scrollbar {
+    width: 12px;
+    background-color: #f1f1f1;
+  }
+  
+  scrollbar-thumb {
+    background-color: #8B4513;
+    border-radius: 10px;
+  }
+  
+}
+
+nav{
+ 
+
+    ul{
+        display: flex;
+        height: 80px;
+        width: 100%;
+        justify-content: space-between;
+        list-style: none;
+        text-decoration: none;
+        position: fixed;
+        backdrop-filter: blur(10px);
+        
+        li{
+           a{text-decoration: none;
+              color: rgb(255, 255, 255);} 
+            padding: 30px;
+            font-size: 20px;
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        i{
+            flex-basis: 40%;
+          height: 20px;
+          margin: 20px;
+          font-size: 50px;  
+          color: aliceblue;
+        }
+    }
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.main{
+    background-image: url(img/pexels-pixabay-60013.jpg);
+    background-size: cover;
+    width: 211vh;
+    height: 100%;
+   
+    h2{
+        font-size: 80px;
+        padding-top: 150px;
+        padding-left: 50px;
+        color: rgb(169, 130, 3);
+    }
+
+}
+
+.slid{
+
+    gap: 70px;
+    img{
+        height: 300px;
+        margin-top: 50px;
+        border-radius:  18px ;
+        margin-right: 80px;
+    }
+    h2{
+        margin: 90px;
+        margin-left: 100px;
+        font-size: 50px;
+    }
+}
+
+
+.nd{
+   
+   margin-top: 80px;
+    img{
+       margin-left: 80px;
+       width: 500px;
+       height: 500px;
+    }
+}
+
+.map{
+    margin-top: 200px;
+    img{
+        height: 900px;
+    }
+    h2{
+        margin-top: 300px;
+        font-size: 50px;
+        padding-right: 20px;
+    }
+}
+
+.middle {
+      background-color: #c3baba;
+      height: 90px;
+      h2{
+        padding-left: 100px;
+        font-size: 80px;
+      }
+      margin-top: 90px;
+}
+
+.ndm{
+    img{
+        height: 750px;
+        border-radius: 12px;
+        padding-left: 10px;
+    }
+    h2{
+        padding-left: 100px;
+        font-size: 50px;  
+    }
+}
+.headermid{
+    background-color: #d5d1cd;
+
+    height: 50px;
+   h2{
+    font-size: 70px;
+    margin: 70px;
+    margin-left: 200px;
+   }
+}
+/* .button {
+    background-color: #d5d1cd;
+    width: 350px;
+    height: 380px;
+    margin: 80px;
+    border-radius: 20px;
+    display: flex;
+    gap: 250%;
+    button{
+        background-color: #d5d1cd;
+        width: 100%;
+        height:40px;
+        border-radius: 20px;
+       
+    }
+} */
+/* .text{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+} */
+
+.button{
+    gap: 70px;
+    justify-content: space-between;
+}
+
+.right{
+    
+    background-color: #d5d1cd;
+    width: 500px;
+    height: 450px;
+    margin-top: 80px;
+    margin-left: 80px;
+    border-radius: 20px;
+
+    .text{
+        font-size: 40px;
+        margin: 10px;
+        text-align: center;
+    }
+  
+}
+
+.left{
+    background-color: #d5d1cd;
+    background-color: #d5d1cd;
+    width: 500px;
+    height: 450px;
+    margin-top: 80px;
+    border-radius: 20px;
+   
+    margin-right: 80px;
+    
+    .text{
+        font-size: 40px;
+        margin: 20px;
+        text-align: center;
+    }
+   
+
+}
+
+
+.btn:hover{
+    background-color: #a38262;
+
+}
+
+
+.btn{
+    background-color: #766351;
+    width: 90%;
+    
+    height:40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #f1f1f1;
+    border: none; 
+   
+}
+
+#snd{
+    margin-left: 20px;
+}
+#fst{
+    margin-right: 90px;
+    width: 100%;
+    margin-top: 55px;
+}
+
+
+.tradition{
+    img{
+        width: 700px;
+        height: 500px;
+        margin-left: 30px;
+    }
+    p{
+        font-size: 50px;
+    }
+}
+
+.farming{
+   h2{
+    font-size: 50px;
+   }
+   p{
+    padding-top: 50px;
+    font-size: 55px;
+   }
+}
+.tradition{
+    img{
+        border-radius: 20px;
+    }
+    h2{
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    p{
+        font-size: 56px;
+    }
+}
+
+.non{
+    background-color: #e7d9cc;
+    height: 60px;
+    margin-top: 90px;
+    padding-top: 26px;
+    h2{
+      margin-left: 27%;
+      font-size: 50px;
+    }
+}
+
+.wt{
+    img{
+        margin-top: 150px;
+    }
+}
+
+.water{
+    h2{
+        padding: 0;
+        margin: 0;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+}
+
+.plant{
+    img{
+        margin-top: 101px;
+    }
+}
